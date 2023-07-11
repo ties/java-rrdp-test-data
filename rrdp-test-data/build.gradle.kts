@@ -12,7 +12,7 @@ plugins {
     `maven-publish`
 }
 
-version = "0.1.0-SNAPSHOT"
+version = "0.2.0-SNAPSHOT"
 group = "com.github.ties"
 
 // https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-gradle-registry#example-using-kotlin-dsl-for-a-single-package-in-the-same-repository
