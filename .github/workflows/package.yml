@@ -31,7 +31,7 @@ jobs:
         with:
           python-version: '3.11'
           cache: 'poetry'
-      - run: poetry install
+      - run: poetry install --no-root
       - name: Download RRDP content
         run: |
           echo "Snapshotting RRDP content"
