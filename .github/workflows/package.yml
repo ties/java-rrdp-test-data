@@ -25,10 +25,13 @@ jobs:
         with:
           java-version: '17'
           distribution: 'temurin'
+      - name: Install poetry
+        run: pipx install poetry
       - uses: actions/setup-python@v4
         with:
           python-version: '3.11'
           cache: 'poetry'
+      - run: poetry install
       - name: Download RRDP content
         run: |
           echo "Snapshotting RRDP content"
