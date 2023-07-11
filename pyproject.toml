@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "rrdp-test-data"
+version = "0.1.0"
+description = ""
+authors = ["Ties de Kock <ties@tiesdekock.nl>"]
+readme = "README.md"
+packages = [{include = "rrdp_test_data"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+rrdp-tools = {git = "https://github.com/ties/rpki-rrdp-tools-py.git"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
