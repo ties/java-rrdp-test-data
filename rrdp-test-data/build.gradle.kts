@@ -43,7 +43,6 @@ dependencies {
 }
 
 tasks.jar {
-    archiveBaseName = "rrdp-test-data"
     entryCompression = ZipEntryCompression.DEFLATED
 }
 

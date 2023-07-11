@@ -25,6 +25,6 @@ hs_err_pid*
 replay_pid*
 
 .idea
-lib/src/main/resources/rrdp-content/
+rrdp-test-data/src/main/resources/rrdp-content/
 .gradle
-lib/build
+rrdp-test-data/build

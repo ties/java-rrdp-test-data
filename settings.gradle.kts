@@ -11,5 +11,5 @@ plugins {
     id("org.gradle.toolchains.foojay-resolver-convention") version "0.4.0"
 }
 
-rootProject.name = "rrdp-test-data"
-include("lib")
+rootProject.name = "rrdpdata"
+include("rrdp-test-data")
